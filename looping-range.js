@@ -4,7 +4,8 @@ function range(start, end, step) {
     return [];
   } for (var i = start; i <= end; i += step) {
     someArray.push(i);
-  }  return someArray;
+  }  
+  return someArray;
 }                        
 
 console.log(range(0, 10, 2));

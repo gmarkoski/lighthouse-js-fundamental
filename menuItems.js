@@ -1,6 +1,6 @@
-var breakfast = {
-  price : "$9.95",
-  name : "Lumberjack",
-  ingredients: ("eggs, sausage, toast, hashbrowns, pancakes"),
-};
-
+let breakfast = {
+ name : "The Lumberjack", 
+ price : "9.95",
+ ingredients : ["eggs", "sausage", "toast", "hashbrowns", "pancakes"],
+ };
+ console.log(breakfast);
